@@ -10,12 +10,18 @@ Los usuarios pueden agregar nuevos productos ingresando su nombre, precio y una 
 Los productos agregados se muestran en una sección dedicada en la página principal de la aplicación. Cada producto se muestra con su nombre, precio y una imagen.
 
 <h2>Tecnologias Utilizadas</h2>
--HTML5
--CSS3
--JavaScript (ES6)
+<p>-HTML5</p>
+<p>-CSS3</p>
+<p>-JavaScript (ES6)</p>
+
+
+
 
 <h3>El proyecto también hace uso de:</h3>
 
--Font Awesome (para los iconos)
--APIConnection (módulo JavaScript para la conexión a una API)
--json-server para poder simular el comportamiento de las peticiones HTTP de manera local
+<p>-Font Awesome (para los iconos)</p>
+<p>-APIConnection (módulo JavaScript para la conexión a una API)</p>
+<p>-json-server para poder simular el comportamiento de las peticiones HTTP de manera local</p>
+
+
+
