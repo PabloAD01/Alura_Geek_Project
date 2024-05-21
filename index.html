@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AluraGeek</title>
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap");
+  </style>
+  <body class="body">
+    <header id="header"></header>
+    <main>
+      <section class="my__products">
+        <h2>Mis Productos:</h2>
+        <div class="my__products__container">
+          <div class="products__container"></div>
+        </div>
+      </section>
+      <section class="add__product">
+        <h2>Agregar Productos:</h2>
+        <form id="product__form" data-form>
+          <div class="form__group">
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Nombre del producto"
+              maxlength="50"
+              data-name
+              required
+            />
+            <span class="error-message" id="error-name" data-error></span>
+          </div>
+          <div class="form__group">
+            <input
+              type="number"
+              name="price"
+              id="price"
+              placeholder="Precio"
+              min="1"
+              data-price
+              required
+            />
+            <span class="error-message" id="error-price" data-error></span>
+          </div>
+          <div class="form__group">
+            <input
+              type="url"
+              name="image"
+              id="image"
+              placeholder="URL de la imagen"
+              data-image
+              required
+            />
+            <span class="error-message" id="error-image" data-error></span>
+          </div>
+
+          <div class="form__buttons" data-buttons></div>
+        </form>
+      </section>
+    </main>
+    <footer id="footer">
+      <p>Alura Latam 2024</p>
+      <p>Desarrollado por Pablo Araya</p>
+    </footer>
+    <script src="./main.js" type="module"></script>
+    <script src="./js/getProducts.js" type="module"></script>
+    <script src="./js/addProduct.js" type="module"></script>
+  </body>
+</html>
