@@ -3,7 +3,7 @@ AluraGeek es una aplicación web para administrar productos. Los usuarios pueden
 
 Funcionalidades
 
-Agregar Productos
+<h1>Agregar Productos</h1>
 Los usuarios pueden agregar nuevos productos ingresando su nombre, precio y una URL de imagen en el formulario provisto. Los campos son validados para asegurar que no estén vacíos y que el precio sea un número positivo. La validación se realiza tanto al enviar el formulario como al perder el foco de los campos.
 
 Mostrar Productos
